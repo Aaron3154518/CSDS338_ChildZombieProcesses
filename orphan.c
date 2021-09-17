@@ -10,7 +10,7 @@ int main(int argc, char* argv[]) {
     } else {
     	sleep(10);
         printf("Parent Finished");
-	}
+    }
 
     return 0;
 }
