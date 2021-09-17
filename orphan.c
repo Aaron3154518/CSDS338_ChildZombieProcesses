@@ -7,10 +7,10 @@ int main(int argc, char* argv[]) {
     if (fork() == 0) {
         sleep(20);
         printf("Child Finished");
-    }
-
-	sleep(10);
-    printf("Parent Finished");
+    } else {
+    	sleep(10);
+        printf("Parent Finished");
+	}
 
     return 0;
 }
