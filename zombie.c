@@ -5,6 +5,7 @@ int main(int argc, char* argv[]) {
 
     if (fork() == 0) {
 		// Child
+		sleep(5);
         printf("Child Finished");
     } else {
      	// Parent
